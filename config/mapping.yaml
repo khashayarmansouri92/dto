@@ -1,0 +1,15 @@
+user:
+  - api_field: fname
+    object_field: first_name
+  - api_field: lname
+    object_field: last_name
+  - api_field: email
+    object_field: email
+  - api_field: pass
+    object_field: password
+
+post:
+  - api_field: title
+    object_field: title
+  - api_field: description
+    object_field: body
