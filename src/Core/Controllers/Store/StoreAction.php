@@ -39,7 +39,7 @@ class StoreAction
             $model = $this->BaseService()->setModel(ConstantsModel::model($key));
 
             // store in database
-            $this->BaseService($model)->store($model, $mappedData);
+            $this->BaseService()->store($model, $mappedData);
         }
 
         return response()->json([
